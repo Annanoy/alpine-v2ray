@@ -25,7 +25,7 @@ cat > /etc/xray/config.json << EOF
             "settings": {
                 "clients": [
                     {
-                        "id": "aff4fc35-d91a-4aed-8a22-6540d356e738", // 填写你的 UUID
+                        "id": "03bd8e26-d2e3-4148-a8d5-c6777524784f", // 填写你的 UUID
                         "level": 0,
                         "email": "fck_gfw@gmail.com"
                     }
@@ -36,7 +36,7 @@ cat > /etc/xray/config.json << EOF
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/up2ws" // 必须换成自定义的 PATH，需要和上面的一致
+                    "path": "/" // 必须换成自定义的 PATH，需要和上面的一致
                 }
             }
         }
